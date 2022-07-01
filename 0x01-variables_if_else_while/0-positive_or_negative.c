@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <stdio.h>
-#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 /**
  * main - main block
  * Description: prints "is it positive or negative"

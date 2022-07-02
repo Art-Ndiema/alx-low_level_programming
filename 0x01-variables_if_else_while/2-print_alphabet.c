@@ -1,17 +1,19 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
- *  main - main block
- * Description: Use `putchar` function to print alphabets.
- * Return: 0
- */
-int main (void)
-	char x = 'a';
-	while (x <= 'z')
+* main - main block
+* Description: Use `putchar` function to print the alphabet in lowercase.
+* Return: 0
+*/
+int main(void)
 {
-	putchar(x);
-x++
-}
-putchar('\n');
-return (0);
+	char x = 'a';
+
+	while (x <= 'z')
+	{
+		putchar(x);
+		x++;
+	}
+	putchar('\n');
+
+	return (0);
 }

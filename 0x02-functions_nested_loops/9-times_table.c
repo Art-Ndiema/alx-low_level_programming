@@ -7,9 +7,7 @@
 */
 
 void times_table(void)
-
 {
-
 	int a;
 
 	int b;
@@ -63,27 +61,18 @@ void times_table(void)
 			else
 
 			{
-
 				_putchar ((c / 10) + '0');
 
 				_putchar ((c % 10) + '0');
 
 				if (b < 9)
-
 				{
-
 					_putchar(',');
 
 					_putchar (' ');
-
 				}
-
 			}
-
 		}
-
 		_putchar ('\n');
-
 	}
-
 }

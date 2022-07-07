@@ -4,39 +4,36 @@
  * @size: print size
  * Return: Always 0.
 */
-
 void print_triangle(int size)
 
-{
 
-int i;
-int z;
-int d;
-int p;
 
-if (size > 0)
 {
-	d = size - 1;
-	for (i = 0; i < size ; i++)
+	int i;
+	int z;
+	int d;
+	int p;
+
+	if (size > 0)
 	{
-		for (z = d; z > 0 ; z--)
+		d = size - 1;
+		for (i = 0; i < size ; i++)
 		{
+			for (z = d; z > 0 ; z--)
+			{
+				_putchar (' ');
+			}
 
-			_putchar (' ');
+			for (p = 0; p <= i; p++)
+			{
+				_putchar (35);
+			}
+			d--;
+			_putchar ('\n');
 		}
-		for (p = 0; p <= i; p++)
-
-		{
-
-			_putchar (35);
-
-		}
-		d--;
+	}
+	else
+	{
 		_putchar ('\n');
 	}
-
-else
-{
-	_putchar ('\n');
-}
 }
